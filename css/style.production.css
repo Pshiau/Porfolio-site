@@ -49,7 +49,11 @@ a {
     /* selected link */
     color: undefined;
   }
-
+  main { 
+    padding: 10px;
+    margin: 10px;
+    border: 1px;
+   }
  
 .button_secondary, .button {
     border: none;
@@ -130,10 +134,18 @@ a {
     margin-left: 15px;
   }
 
+  .navigation-list__item--active {
+    text-decoration: none;
+  }
+
+  
   .grid {
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
     grid-gap: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px none;
   }
   .grid__item {
     background-color: lightgray;
@@ -197,7 +209,10 @@ a {
 
   .about-photo {
     Max-width: 500px ;
+    clear:both;
     display: flex;
+    flex-direction:column;
+    text-align: center;
 
   }
 
